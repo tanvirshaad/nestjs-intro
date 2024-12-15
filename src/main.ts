@@ -9,6 +9,7 @@ async function bootstrap() {
     forbidNonWhitelisted: true,
     transform: true,
   }));
+  console.log("hello kaissha")
   await app.listen(process.env.PORT ?? 3000);
 }
 bootstrap();
